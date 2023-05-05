@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    
+    font-style: normal;
+    user-select: none;
+    background: url("bg.jpg");
+    background-repeat: repeat-y;
+    text-align: center;
+    
+}
+body{
+    animation: bgr 3s 0s ;
+}
+.top {
+    background-color: transparent;
+    display: flex;     
+    width: 100%;
+    justify-content: center;
+}
+
+h1 {
+    opacity: 0.3;
+    font-size: 6em;
+    z-index: 1;
+    
+    
+}
+span {
+    background-color: white;
+    border-color: green;
+    
+}
+h1{
+    color: #d11717;
+    text-shadow:
+        0 0 7px #d11717,
+        0 0 10px #d11717,
+        0 0 21px #d11717,
+        0 0 42px #d11715,
+        0 0 82px #d11715,
+        0 0 92px #d11715,
+        0 0 102px #d11715,
+        0 0 151px #d11715;
+    animation: show 3s 0s infinite  ;
+    animation: shakeme 4s 100ms infinite;
+    
+             
+}
+@keyframes show {
+    0% {
+        opacity: 0.3;
+    }
+    25% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.6;
+    }
+    100% {
+        
+    }
+}
+.tryhackme {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    flex-direction: column;
+    
+        }
+object{
+    width: 100%;
+    height: 450px;
+    overflow-y: hidden;
+    margin: 10px;
+}
+section{
+    width: 100%;
+    height: 100%;
+   
+}
+.lefty {
+    font-size: 20px;
+ 
+    text-align: left;
+    
+    color : white;
+    padding: 5px;
+    margin: 10px;
+   
+    
+}
+@keyframes shakeme {
+        0%
+        {
+            transform: rotateX(30deg);
+            transform: rotateY(30deg);
+            opacity: 0;
+
+        }
+        33% {
+            transform: rotateX(60deg);
+            transform: rotateY(60deg);
+            opacity: 0.5;
+
+        }
+        66%
+        {
+            transform: rotateX(-75deg);
+            transform: rotateY(-75deg);
+            opacity: 1;
+
+        }
+        100% {
+            transform: rotateX(30deg);
+            transform: rotateY(30deg);
+            opacity: 0;
+        }
+    }
+@media (min-width: 710px) {
+
+    .tryhackme{
+        flex-flow: row;
+    }
+
+    }
