@@ -12,8 +12,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
     </script>
+    <script src="main.js"></script>
     <!-- Add your custom CSS file for further styling -->
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 
 <body>
@@ -25,6 +29,8 @@
         <a class="navbar-brand" href="#Certificates">Certificates</a>
         <a class="navbar-brand" href="#Projects">Projects</a>
         <a class="navbar-brand" href="#top">Skills</a>
+        <a class="navbar-brand" href="#contact-me">Contact</a>
+
     </nav>
 
     <section class="container my-5">
@@ -44,7 +50,7 @@
                     <li>iOS</li>
                 </ul>
                 <!-- Add your other skill categories -->
-                <h4>Programming Languages</h4>
+                <h4>Programming</h4>
                 <ul>
                     <li>Bash</li>
                     <li>Python</li>
@@ -69,19 +75,25 @@
                     <li>Tor network</li>
                     <li>Wireshark</li>
                 </ul>
-                <h4>Penetration testing tools (favorite ones)</h4>
+                <h4>Security</h4>
                 <ul>
-                    <li>Nmap/Zenmap</li>
-                    <li>TheHarvester</li>
-                    <li>Nikto</li>
-                    <li>BurpSuite</li>
-                    <li>ZED</li>
-                    <li>Metasploitable</li>
-                    <li>John</li>
-                    <li>Medusa</li>
-                    <li>Aircrack-ng</li>
-                    <li>OpenVAS</li>
+                    <li>Ethical Hacking</li>
+                    <li>Security Auditing</li>
+                    <li>OWASP Top 10</li>
+                    <li>Secure coding practices</li>
+                    
                 </ul>
+                <h4>Version Control</h4>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub/GitLab/Bitbucket</li>
+                </ul>
+                <h4>Cloud Services</h4>
+                  <ul>
+                    <li>Amazon Web Services (AWS)</li>
+                    <li>Microsoft Azure</li>
+                    <li>Google Cloud Platform (GCP)</li>
+                  </ul>
                 <h4>Open Source Intelligence</h4>
                 <ul>
                     <li>Maltego</li>
@@ -89,12 +101,30 @@
                     <li>OSINT Framework</li>
                     <li>Google</li>
                 </ul>
+                <h4>Data Science</h4>
+            <ul>
+                <li>Data Visualization</li>
+                <li>Data Preprocessing</li>
+                <li>Statistical Analysis</li>
+                <li>R Studio</li>
+                <li>Spreadsheets (Excel or Google Sheets)</li>
+                <li>R Studio (R Programming Language)</li>
+                <li>SQL (Structured Query Language)</li>
+
+            </ul>
+                <h4>Soft Skills</h4>
+            <ul>
+                <li>Communication</li>
+                <li>Problem-solving</li>
+                <li>Team collaboration</li>
+                <li>Time management</li>
+            </ul>
             </div>
         </div>
     </section>
 
     <section class="container my-5" id="Certificates">
-        <h2 class="text-center">Certificates</h2>
+        <br><br><br><br><br></b><h2 class="text-center">Certificates</h2>
         <div class="row">
             <!-- Add your certificate images -->
             <section class="container my-5" id="Certificates">
@@ -128,7 +158,9 @@
             
             </div>
         </section>
-        <section " id="Projects">
+        <section lass="container my-5" id="Projects">
+            <br><br><br><br><br>
+            <h2 class="text-center">Projects</h2> <br><br><br>
             <div class="row">
                 <div class="col-md-6">
                     <a href="https://whitekeylock.github.io/Atlas/" target="_blank"> <h4>Atlas Gym Website</h4></a>
@@ -136,8 +168,69 @@
                 </div>
                 <div class="col-md-6">
                 </div>
+        </section> 
+       
+        <br><br><br>
+        <div id="contact-me">
+            <br><br><br><br><br>
+            <a href="mailto:pavle.trmcic95@gmail.com" class="fa-beat 2xl fa-solid email" > E-mail me  <i class=" fa-at " >   </i> <br><br> pavle.trmcic95@gmail.com </a>
 
-        </section>             
+            <div>   
+                <br><br><br> 
+                <button  class="fa-solid " onclick="myFunction()">Copy PGP</button> <br><br>
+            <code class="text-wrap" id="pgp" >
+                -----BEGIN PGP PUBLIC KEY BLOCK----- <br>
+Comment: User-ID:	Pavle Trmcic <pavle.trmcic95@gmail.com> <br>
+<br><br>
+mQGNBGXIqvEBDADM9r52gFAevvCbT/xmqlTg4328v0lFmaelO4nbrMSLh0FFztGi<br>
+ZeKwfrZIMD8PBKU19e8aBpGpZa6eWOLDCAbaKRx4tSsqbKHSKwYgkGfO3Az9MVn2<br>
+N5cRi1Y6HqjUahhNBb0FW3yecFD48ndWIeyV9WI5GHrRCiUWHKRvaem2OgxratXt<br>
+FpbxqJnd8iONWPlFQvJiGK/0hrgKwquBS3/TNwUxPBQT87327dB+cPTOZTXyElZz<br>
+UocykV1lmVWpcmNq+keTFM4ayZaBluECvhnljzRkWPK7NzrB8X+KJB7U6ZMoZgUw<br>
+cVcj7AbbDsBuIgj5TMZdwXcuv7XS80TvRItGpWEbHgkKHzc+YIF3eRa0stvotxxO<br>
+sNU/cTbRPmeIhFd1aF5BTdy2s9+9FRJTovq/yu4iCnB7DuXr1e0aHGCMnUzVwHTZ<br>
+jh/TA4BFszGN7L00RlWydQNOtoexqJvqnughyS26u/UG+usbARgiYW++Q8+Bz1Vs<br>
+E6msfpxfbnGUjpkAEQEAAbQnUGF2bGUgVHJtY2ljIDxwYXZsZS50cm1jaWM5NUBn<br>
+bWFpbC5jb20+iQHUBBMBCgA+FiEEZozhdsIQnI7pKex6IFnhG/q/VZoFAmXIqvEC<br>
+GwMFCQPDqC8FCwkIBwIGFQoJCAsCBBYCAwECHgECF4AACgkQIFnhG/q/VZqP2Av+<br>
+MslnhE9aDKdBtyX5P9Wqkrpvh2bqHHDpp/02jE8h2gBhsexLvlRhdqBhXxs8sgzI<br>
+Nqi0sU5m/EIcr3G4vL4FxQBUELCGkfrHPyKOjUvlFEEOCAIkTCdwwRlGYYMzGSvX<br>
+0S4QHFVvIlcs4B0V9sOHq/erFG1QBentqEK+5SxelEgDm/hMNbXuuKvOIdgH/Tqr<br>
+rbx4+O0GaUZCgeYQOGABXsFPTPRFOMYmhB00LNw3+Z0u17LbZS8jrYWwUEUwjjsT<br>
+3XMdAcaz89aEPH4An9HYuQ6XCDKWBDNGX+SHukGG8uJgDq93XcTTMKz97sAknZW4<br>
+0uN4ptMcyZljaefOYqfoHLbrqMiOgIPsbW0SbU96cZTRvQ97jyRJxKMRl0Mu+DaF<br>
+qaDDP+M1JRz5y0PwxN1u4q3JbWle9o9v6KbpbQHLv4ro7ZxD1/AVRaoKTlGrhNI1<br>
+LowaTlroV9H99Xu1F4+4hvoINrEEHL1/rUjRAvc5+GAdo8wR/pKExxuTlGtIJNa1<br>
+uQGNBGXIqvEBDADdFtioY376Gb767TkqhFJDE07NHaa6usd5uElWVobF1E3/qMsq<br>
+NYkl5YaEH8FBbE3mZvnYp0WlB5AaZuhs+dwruqHtpOjid4UTYVe+WAiVSTkoVuBG<br>
+Cp9AxuqpbAWkwFPghAZ4uDlBerc9OwkQ9VWsyGWs6L6fEbUM14aWaM1s4Vi7eM2x<br>
+Zo5ST+WwT/3wYa4GAUqVIhUzy2Kk7B23pWd777eLEZ1sAcjhlSjnHr3Ou6uIddQ6<br>
+xIpgcy2Gdpp35SQFkArFuscpOXBygIK/p8nz2cedxGiJ2aXARusBLhtHRoPHPMXa<br>
+VMqNbiwiRl0MsaS9wDBrBtG8+ENQbZOXwlkK6G80G/v+zarF0VX3Mu+NtnCCpMZM<br>
+fsPdpCYMp8C1WImBgHUvdyS5qc0wOmfGLFhEPriUZ2fz8DQr2JtiJTu/wcPYa8vd<br>
+nTtDZ34QuEc/BRw70+WMUf82DBqvbjALVtZfIGApKh7CJlX1jzbs2mwaQ7PYq4tw<br>
+VejFVWZQxjQMr2UAEQEAAYkBvAQYAQoAJhYhBGaM4XbCEJyO6SnseiBZ4Rv6v1Wa<br>
+BQJlyKrxAhsMBQkDw6gvAAoJECBZ4Rv6v1WaZT0L/A2A1Rx8j9b1PjTgsqdvu28f<br>
+5/7vKqKcpqquKKCcoRXBJrnWUWBekDULGhkg/HB2diQUcVdy/81pM8Ah101dGr+x<br>
+c+mf3/ZsKUMKvXtqakVmMzBaCK5Enq/MRhV41FkHgI7KmQ6J9U1T+WoSFssrll5p<br>
+tE/aosuLSvn/kxlsdCx71lnRoSXsOpdbtmnj5ZGWrt+9m3UCyTBEvqjuSE7i5wBd<br>
+ivNSdxQtlv+SJ41jPLJJe/OKPoQGRDthgxUFSIrzGOKWNRJphyi4biycTi4ybUIK<br>
+c9Cy7AvSaPRvDYBKBnNNvsFWVtBZpGGNIv9QkdRideSGzK75OW821NjsTLhwPfTz<br>
+lS1XxWBlu6Px/cLD4w3vedn7wr0hvqOrc0orfXnMMx0mYg4QPJYNSbpTq60kBQVW<br>
+yAZMXBvWsCuYzYFmDRzCp3u7mfSSfMANSVd8slaZecJOj/Ys7EctNmu2kvrZuDBS<br>
+ifqV9La+IuRjC22eFuAA1QFpBIlylVrxCtV6QUR3CA==<br>
+=U7SP<br>
+-----END PGP PUBLIC KEY BLOCK-----<br>
+
+            </code> <br><br>
+            <button  class="fa-solid" onclick="myFunction()">Copy PGP</button>
+        </div>
+        
+        
+        </div>
+        
+
+
         </body>
         </html>
 

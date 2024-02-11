@@ -18,6 +18,13 @@ nav {
 h4 {
     color: aqua;
 }
+a {
+    text-decoration: none;
+}
+.email {
+    color: #74C0FC;
+    font-size: larger;
+}
 p {
     color:white;
     margin-left: 20%;
@@ -37,9 +44,7 @@ img {
     padding: 10px;
     m
 }
-a{
-    text-decoration: none ;
-    }   
+ 
 .Resume {
     
 }
