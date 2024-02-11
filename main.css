@@ -37,7 +37,9 @@ img {
     padding: 10px;
     m
 }
-
+a{
+    text-decoration: none ;
+    }   
 .Resume {
     
 }
