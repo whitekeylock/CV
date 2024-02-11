@@ -83,6 +83,21 @@ h2{
     
              
 }
+h3 {
+    color: #4eeb75;
+    text-shadow:
+        0 0 7px #4eeb75,
+        0 0 10px #4eeb75,
+        0 0 21px #4eeb75,
+        0 0 42px #4eeb75,
+        0 0 82px #4eeb75,
+        0 0 92px #4eeb75,
+        0 0 102px #4eeb75,
+        0 0 151px #4eeb75;
+    animation: show 3s 0s infinite  ;
+    animation: shakeme 4s 100ms infinite;
+
+}
 @keyframes show {
     0% {
         opacity: 0.3;
